@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号码"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号码"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/mobile"
+        />
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:text="注册"
+        android:onClick="reg"
+        android:layout_marginLeft="80dp"/>
+
+</RelativeLayout>
